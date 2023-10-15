@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=a52sxq
-export DEVICE_COMMON=sm7325-common
+export DEVICE=a23xq
+export DEVICE_COMMON=sm6375-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
