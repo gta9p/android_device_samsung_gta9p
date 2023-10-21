@@ -21,7 +21,6 @@ RECOVERY_KMOD_TARGETS := \
     sec_cmd.ko \
     sec_common_fn.ko \
     sec_secure_touch.ko \
-    sec_tclm_v2.ko \
     sec_tsp_dumpkey.ko \
     sec_tsp_log.ko
 
