@@ -498,3 +498,5 @@ vendor/firmware/wlanmdsp.mbn
 vendor/firmware/Data.msc
 vendor/firmware/wlan/qca_cld/bdwlan.bin
 vendor/firmware/wlan/qca_cld/regdb.bin
+vendor/etc/wifi/aoa_cldb_falcon.bin
+vendor/etc/wifi/aoa_cldb_swl14.bin
