@@ -487,13 +487,6 @@ vendor/firmware/td4375_a23xq_boe.bin
 vendor/firmware/td4375_a23xq_tianma.bin
 
 # Wifi firmware
-vendor/firmware/ipa_fws.b00
-vendor/firmware/ipa_fws.b01
-vendor/firmware/ipa_fws.b02
-vendor/firmware/ipa_fws.b03
-vendor/firmware/ipa_fws.b04
-vendor/firmware/ipa_fws.elf
-vendor/firmware/ipa_fws.mdt
 vendor/firmware/wlanmdsp.mbn
 vendor/firmware/Data.msc
 vendor/firmware/wlan/qca_cld/bdwlan.bin
