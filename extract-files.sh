@@ -30,7 +30,7 @@ fi
 
 set -e
 
-export DEVICE=a23xq
+export DEVICE=gta9p
 export DEVICE_COMMON=sm6375-common
 export VENDOR=samsung
 

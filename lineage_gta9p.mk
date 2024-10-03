@@ -15,7 +15,7 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a23xq/device.mk)
+$(call inherit-product, device/samsung/gta9p/device.mk)
 
 # Inherit from the 64 bit configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
@@ -30,19 +30,20 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1200
+TARGET_SCREEN_WIDTH := 1920
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a23xq
-PRODUCT_DEVICE := a23xq
+PRODUCT_NAME := lineage_gta9p
+PRODUCT_DEVICE := gta9p
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A236B
+PRODUCT_MODEL := SM-X216B
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# Vendor fingerprint
-BUILD_FINGERPRINT := "samsung/a23xqnsxx/a23xq:13/TP1A.220624.014/A236BXXU4CWGJ:user/release-keys"
-PRIVATE_BUILD_DESC := "a23xqnsxx-user 13 TP1A.220624.014 A236BXXU4CWGJ release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="gta9pxxx-user 14 UP1A.231005.007 X216BXXS3CXG1 release-keys"
+
+BUILD_FINGERPRINT := samsung/gta9pxxx/qssi:14/UP1A.231005.007/X216BXXS3CXG1:user/release-keys

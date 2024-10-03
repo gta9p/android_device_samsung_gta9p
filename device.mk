@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a23xq
+DEVICE_PATH := device/samsung/gta9p
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
@@ -22,11 +22,11 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 $(call inherit-product, device/samsung/sm6375-common/common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/a23xq/a23xq-vendor.mk)
+$(call inherit-product, vendor/samsung/gta9p/gta9p-vendor.mk)
 
 # Init files
 PRODUCT_PACKAGES += \
-    init.a23xq.rc
+    init.gta9p.rc
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -38,4 +38,4 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 PRODUCT_PACKAGES += \
-    sensors.a23xq
+    sensors.gta9p
