@@ -11,3 +11,6 @@
 
 ## Clone Kernel
     git clone https://github.com/gta9p/android_kernel_tree_samsung_sm6375 -b android-14 kernel/samsung/sm6375
+
+## Build
+    source build/envsetup.sh lunch lineage_gta9p-userdebug
