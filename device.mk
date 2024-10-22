@@ -22,7 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 $(call inherit-product, device/samsung/sm6375-common/common.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/gta9p/gta9p-vendor.mk)
+$(call inherit-product, vendor/samsung/gta9p/sm6375-common-vendor.mk)
 
 # Init files
 PRODUCT_PACKAGES += \
